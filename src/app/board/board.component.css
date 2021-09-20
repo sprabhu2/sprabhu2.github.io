@@ -1,0 +1,73 @@
+:host {
+	display: block ;
+}
+
+.card {
+	border: 1px solid #333333 ;
+	box-sizing: border-box ;
+	display: grid ;
+	grid-template-columns: repeat( 5, 1fr ) ;
+	grid-template-rows: repeat( 5, 1fr ) ;
+	list-style-type: none ;
+	margin: 0px 0px 0px 0px ;
+	padding: 0px 0px 0px 0px ;
+}
+
+.spaceDefault {
+	align-items: center ;
+	border: 1px solid #333333 ;
+	box-sizing: border-box ;
+	cursor: pointer ;
+	display: flex ;
+	font-family: monospace ;
+	font-size: 16px ;
+	justify-content: center ;
+	line-height: 24px ;
+	margin: 0px 0px 0px 0px ;
+	padding: 20px 20px 20px 20px ;	
+	text-align: center ;
+	text-transform: uppercase ;
+	user-select: none ;
+
+}
+
+.spaceSelected {
+		background-color:blanchedalmond ;
+		align-items: center ;
+		border: 1px solid #ea0040 ;
+		box-sizing: border-box ;
+		cursor: pointer ;
+		display: flex ;
+		font-family: monospace ;
+		font-size: 16px ;
+		justify-content: center ;
+		line-height: 24px ;
+		margin: 0px 0px 0px 0px ;
+		padding: 20px 20px 20px 20px ;	
+		text-align: center ;
+		text-transform: uppercase ;
+		user-select: none ;
+	}
+	canvas {
+		height: 100%; 
+		width: 100%;
+		overflow: auto;
+		z-index: 100;
+		padding-top: -200px;
+	  }
+	   
+	  .winnerMsg {
+		display: flex;
+		justify-content: center;
+	  }
+	  .container{
+		display: flex;
+		justify-content: center;  
+		align-content: center;
+	  }
+
+	  html,body {
+		margin: 0;
+		overflow: hidden;
+		scroll-behavior: auto;
+	 }
